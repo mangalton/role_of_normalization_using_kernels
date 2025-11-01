@@ -73,7 +73,7 @@ Here is a description of each file and its role in the project.
 ### `InferenceForCIFAR-10Dataset.py`
 * **Purpose:** A script to run predictions using the pre-trained **CIFAR-10** model.
 * **Function:**
-    * Loads `best_svm_model.joblib` and `best_scaler.joblib` (saved by `copy_of_untitled17.py`).
+    * Loads `best_svm_model.joblib` and `best_scaler.joblib` (saved by `Role_of_normalization_CIFAR-10.py`).
     * Loads the fresh CIFAR-10 test set.
     * Picks 5 random images, applies the preprocessing pipeline, and predicts their class.
     * Displays the image, prediction, and true label.
