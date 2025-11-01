@@ -82,7 +82,7 @@ Here is a description of each file and its role in the project.
 
 ## 4. How to Run the Project
 
-### 📚 Requirements
+###  Requirements
 You will need the following Python libraries. You can install them using `pip`:
 
 ```bash
@@ -97,7 +97,7 @@ Note: These scripts train 15 separate SVM models on large datasets and may take 
 ###For Fashion-MNIST:
 
 ```bash
-python RoleNormFashionmnist.py
+python Role_of_normalization_MNISTFashion.py
 ```
 
 This will run the full analysis and display the comparison plots for Fashion-MNIST.
@@ -105,7 +105,7 @@ This will run the full analysis and display the comparison plots for Fashion-MNI
 ### For CIFAR-10:
 
 ```bash 
-python copy_of_untitled17.py
+python Role_of_normalization_CIFAR-10.py
 ```
 
 This will run the full analysis for CIFAR-10, display plots, and save two files:
