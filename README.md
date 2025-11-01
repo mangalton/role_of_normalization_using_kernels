@@ -129,7 +129,7 @@ Update `model_filename` and `scaler_filename` to point to your saved files.
 
 Run:
 ```bash
-python inferenceonmnistfashion.py
+python InferenceForMNISTFashionDataset.py
 ```
 ### For CIFAR-10:
 
@@ -141,5 +141,5 @@ Ensure file paths match (same directory by default).
 
 Run:
 ```bash
-python inferenceoncifar10.py
+python InferenceForCIFAR-10Dataset.py
 ```
