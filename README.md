@@ -143,23 +143,3 @@ Run:
 ```bash
 python inferenceoncifar10.py
 ```
-
-## 5. Summary of Findings
-
-The analysis scripts demonstrate several key machine-learning concepts:
-
-### Impact of Normalization:
-
-* Non-linear kernels (RBF, Poly) are highly sensitive to data scaling. Their performance increases dramatically when using StandardScaler or MinMaxScaler compared to unscaled data.
-** Kernel Performance: **
-  
-* The linear kernel is fastest to train but may not capture complex patterns. The RBF kernel is a strong default but requires proper scaling and tuning.
-* 
-Model-Specific Preprocessing:
-
-There is no single "best" normalization. The optimal method depends on dataset distribution and model behavior. This project provides a framework to empirically find the best combination.
-
-Error Analysis:
-
-Most misclassifications (e.g., Pullover vs. Shirt vs. Coat in Fashion-MNIST) occur between visually similar classes, showing the inherent challenge of the task.
-
